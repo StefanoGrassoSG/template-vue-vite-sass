@@ -19,4 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/scss/main";
+main {
+  margin-top: 200px;
+}
 </style>

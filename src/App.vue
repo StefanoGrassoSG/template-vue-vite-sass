@@ -21,13 +21,21 @@ export default {
 </script>
 
 <template>
-  <HeaderComponent />
+  <div class="all">
+    <HeaderComponent />
 
-  <MainComponent />
+    <MainComponent />
 
-  <FooterComponent />
+    <FooterComponent />
+  </div>
+
 </template>
 
 <style lang="scss" scoped>
 @use "assets/scss/main";
+  .all {
+    min-height: 100vh;
+    background: rgb(0,0,0);
+    overflow-x: hidden;
+  }
 </style>

@@ -1,13 +1,31 @@
 <script>
-  
+
+import ImagePar from '../components/ImagePar.vue';
+import BioComponent from '../components/BioComponent.vue';
+
+export default {
+    data() {
+    return {
+
+    }
+    },
+    methods: {
+
+    },
+    components: {
+        ImagePar,
+        BioComponent
+    }
+}
 </script>
 
 <template>
-        <h1 class="text-center my-5"> 
-            QUESTO è IL CONTENUTO DELLA HOME PAGE
-        </h1>
+
+    <ImagePar/>
+    <BioComponent/>
+    
 </template>
 
 <style lang="scss" scoped>;
-
+@use "../assets/scss/main";
 </style>
