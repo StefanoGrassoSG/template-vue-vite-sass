@@ -29,7 +29,7 @@ export default {
                             <h4 class="text-white">
                                 Benvenuto nel mio Portfolio!.
                             </h4> 
-                            <p class="text-justify">
+                            <p>
                                 Mi chiamo Alessandro Mungai e sono un Junior Frontend Developer con la passione per la Grafica.
                                 Dopo aver conseguito il diploma, ho sempre svolto attività lavorative d'ufficio poco creative. Al termine
                                 dell’ultimo percorso aziendale, ho deciso di rimettermi in gioco conseguendo dapprima un master come
